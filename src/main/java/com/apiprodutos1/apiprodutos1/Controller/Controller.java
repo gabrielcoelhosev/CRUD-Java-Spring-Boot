@@ -8,6 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/produtos")
+@CrossOrigin(origins = "*")
 public class Controller {
 
     private List<Produtos> listaProdutos = new ArrayList<>();
